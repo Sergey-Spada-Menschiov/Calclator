@@ -35,7 +35,7 @@ calculator V 0.0.2
 <input type="button" value="7" onclick="document.calculator.cal.value+='7'">
 <input type="button" value="8" onclick="document.calculator.cal.value+='8'">
 <input type="button" value="9" onclick="document.calculator.cal.value+='9'">
-<input type="button" value="." onclick="docment.calculator.cal.value+='.'">
+<input type="button" value="." onclick="document.calculator.cal.value+='.'">
 <br>
 <input type="button" value="+" onclick="document.calculator.cal.value+='+'">
 <input type="button" value="0" onclick="document.calculator.cal.value+='0'">
