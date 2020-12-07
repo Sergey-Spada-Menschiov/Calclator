@@ -1,0 +1,53 @@
+<html>
+<head>
+  <meta charset="utf-8">
+  <style>
+  body{
+  background: #2F4F4F url(https://image.freepik.com/free-vector/christmas-and-new-year-festive-seamless-pattern_320155-8.jpg);}
+  section {
+          border-radius: 1em;
+          padding: 1em;
+          position: absolute;
+          top: 25%;
+          left: 50%;
+          margin-right: -50%;
+          transform: translate(-50%, -50%)}
+</style>
+    <font color="#FAF0E6">
+<form name="calculator">
+<title>Калькулятор</title>
+</head>
+<body bgcolor="#FAF0E6" text="">
+  <section>
+calculator V 0.0.1
+<hr>
+<br>
+<input type="textfield" name="ans" value="">
+<br>
+<input type="button" value="1" onclick="document.calculator.ans.value+='1'">
+<input type="button" value="2" onclick="document.calculator.ans.value+='2'">
+<input type="button" value="3" onclick="document.calculator.ans.value+='3'">
+<br>
+<input type="button" value="4" onclick="document.calculator.ans.value+='4'">
+<input type="button" value="5" onclick="document.calculator.ans.value+='5'">
+<input type="button" value="6" onclick="document.calculator.ans.value+='6'">
+<br>
+<input type="button" value="7" onclick="document.calculator.ans.value+='7'">
+<input type="button" value="8" onclick="document.calculator.ans.value+='8'">
+<input type="button" value="9" onclick="document.calculator.ans.value+='9'">
+<br>
+<input type="button" value="+" onclick="document.calculator.ans.value+='+'">
+<input type="button" value="0" onclick="document.calculator.ans.value+='0'">
+<input type="button" value="-" onclick="document.calculator.ans.value+='-'">
+<br>
+<input type="button" value="/" onclick="document.calculator.ans.value+='/'">
+<input type="button" value="*" onclick="document.calculator.ans.value+='*'">
+
+<input type="button" value="=" onclick="document.calculator.ans.value=eval(document.calculator.ans.value)">
+
+<input type="reset" value="Сброс">
+</section>
+
+</form>
+</body>
+</html>
